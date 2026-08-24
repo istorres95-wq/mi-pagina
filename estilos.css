@@ -579,6 +579,74 @@ button:hover {
     transform: scale(1.05);
 }
 /* ===== HISTORIA ===== */
+/* ===== NUEVO DISEÑO DE NUESTRA HISTORIA ===== */
+
+#historia {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#historia h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+#historia .momento {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto 25px auto;
+    padding: 25px 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#historia .momento h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#historia .momento p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin: 0;
+    text-align: justify;
+}
+
+/* ===== CELULAR ===== */
+
+@media (max-width: 600px) {
+
+    #historia {
+        padding: 20px 10px;
+    }
+
+    #historia h1 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    #historia .momento {
+        width: 100%;
+        padding: 20px 18px;
+        margin-bottom: 20px;
+    }
+
+    #historia .momento h2 {
+        font-size: 20px;
+    }
+
+    #historia .momento p {
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: left;
+    }
+}
 
 #historia {
     width: 100%;
