@@ -759,3 +759,20 @@ button:hover {
         font-size: 15px;
     }
 }
+#historia .momento {
+    display: none;
+}
+
+#historia .momento.activo {
+    display: block;
+}
+
+.siguiente {
+    display: block;
+    margin: 25px auto 0;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
