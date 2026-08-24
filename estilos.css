@@ -579,3 +579,58 @@ button:hover {
 
     transform: scale(1.05);
 }
+/* ===== HISTORIA ===== */
+
+#historia {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#historia .momento {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Texto de la historia */
+#historia .momento p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Imágenes de la historia */
+#historia .momento img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 15px;
+}
+
+/* ===== CELULAR ===== */
+
+@media (max-width: 600px) {
+
+    #historia {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #historia .momento {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    #historia .momento p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+}
