@@ -633,3 +633,61 @@ button:hover {
     }
 
 }
+/* CORRECCIÓN FINAL DE HISTORIA */
+
+#historia {
+    width: 100%;
+    min-height: auto !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    box-sizing: border-box;
+}
+
+#historia .momento {
+    width: 90%;
+    max-width: 700px;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    margin: 0 auto 25px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#historia .momento img {
+    width: 100%;
+    max-width: 500px;
+    height: auto !important;
+    max-height: 400px;
+    object-fit: contain;
+    display: block;
+    margin: 15px auto;
+}
+
+#historia .momento p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* CELULAR */
+
+@media (max-width: 600px) {
+
+    #historia {
+        padding: 10px;
+    }
+
+    #historia .momento {
+        width: 95%;
+        padding: 15px;
+    }
+
+    #historia .momento img {
+        max-height: 300px;
+    }
+
+    #historia .momento p {
+        font-size: 15px;
+    }
+}
