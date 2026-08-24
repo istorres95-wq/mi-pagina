@@ -162,3 +162,19 @@ botonesVolver.forEach(function(boton) {
     });
 
 });
+function siguienteMomento() {
+    const momentos = document.querySelectorAll("#historia .momento");
+
+    let actual = -1;
+
+    momentos.forEach((momento, index) => {
+        if (momento.classList.contains("activo")) {
+            actual = index;
+        }
+    });
+
+    if (actual < momentos.length - 1) {
+        momentos[actual].classList.remove("activo");
+        momentos[actual + 1].classList.add("activo");
+    }
+}
