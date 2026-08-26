@@ -178,34 +178,7 @@ function siguienteMomento() {
         momentos[actual + 1].classList.add("activo");
     }
 }
-// Ocultar cápsula y mensaje al cargar
-document.addEventListener("DOMContentLoaded", function () {
-
-    const capsula = document.getElementById("capsula");
-    const mensaje = document.getElementById("mensajeCapsula");
-    const continuar = document.getElementById("continuarCapsula");
-    const abrir = document.getElementById("abrirCapsula");
-    const video = document.getElementById("videoSorpresa");
-
-    if (capsula) capsula.style.display = "none";
-    if (mensaje) mensaje.style.display = "none";
-
-    if (continuar) {
-        continuar.addEventListener("click", function () {
-
-            video.style.display = "none";
-            capsula.style.display = "block";
-
-        });
-    }
-
-    if (abrir) {
-        abrir.addEventListener("click", function () {
-
-            capsula.style.display = "none";
-            mensaje.style.display = "block";
-
-        });
-    }
-
-});
+function continuarCapsula() {
+    document.getElementById("videoSorpresa").style.display = "none";
+    document.getElementById("capsula").style.display = "block";
+}
