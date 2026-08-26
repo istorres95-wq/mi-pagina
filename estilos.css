@@ -812,3 +812,19 @@ button:hover {
 #mensajeCapsula {
     display: none;
 }
+/* ===== TAMAÑO DEL VIDEO DE LA SORPRESA ===== */
+
+#videoSorpresa {
+    width: 100%;
+    text-align: center;
+}
+
+#videoSorpresa video {
+    width: 500px !important;
+    max-width: 80% !important;
+    height: 280px !important;
+    object-fit: contain;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
