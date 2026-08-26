@@ -130,6 +130,19 @@ sorpresaBtn.addEventListener("click", function() {
 
     sorpresa.style.display = "block";
 
+    // Reiniciar la sorpresa
+    document.getElementById("videoSorpresa").style.display = "block";
+    document.getElementById("capsula").style.display = "none";
+    document.getElementById("mensajeCapsula").style.display = "none";
+
+    // Reiniciar el video
+    let video = document.getElementById("videoCapsula");
+
+    if (video) {
+        video.currentTime = 0;
+        video.pause();
+    }
+
 });
 
 
