@@ -790,3 +790,16 @@ button:hover {
     border-radius: 25px;
     cursor: pointer;
 }
+/* ===== SECUENCIA DE LA SORPRESA ===== */
+
+#videoSorpresa {
+    display: block;
+}
+
+#capsula {
+    display: none;
+}
+
+#mensajeCapsula {
+    display: none;
+}
