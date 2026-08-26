@@ -776,3 +776,17 @@ button:hover {
     cursor: pointer;
     font-size: 16px;
 }
+#videoSorpresa video {
+    width: 100%;
+    max-width: 700px;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
+}
+
+#continuarCapsula {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
