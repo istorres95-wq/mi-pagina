@@ -777,13 +777,22 @@ button:hover {
     font-size: 16px;
 }
 #videoSorpresa video {
-    width: 100%;
-    max-width: 700px;
+    width: 80%;
+    max-width: 500px;
+    max-height: 450px;
     border-radius: 15px;
     margin: 20px auto;
     display: block;
 }
+@media (max-width: 600px) {
 
+    #videoSorpresa video {
+        width: 95%;
+        max-width: 100%;
+        max-height: 400px;
+    }
+
+}
 #continuarCapsula {
     margin-top: 20px;
     padding: 12px 25px;
