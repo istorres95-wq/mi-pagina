@@ -167,6 +167,12 @@ botonesVolver.forEach(function(boton) {
         historia.style.display = "none";
 
         dedicatorias.style.display = "none";
+        let video = document.getElementById("videoCapsula");
+
+        if (video) {
+            video.pause();
+            video.currentTime = 0;
+        }
 
         sorpresa.style.display = "none";
 
